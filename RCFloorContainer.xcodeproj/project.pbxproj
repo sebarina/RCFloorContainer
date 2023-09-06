@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E6854061484E9F53F9BBD4D /* Pods_RCFloorContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5202E23DDE12B00DB46257 /* Pods_RCFloorContainer.framework */; };
+		D4740B6B2AA587F1005FDC26 /* RCFloorContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = D4740B6A2AA587F1005FDC26 /* RCFloorContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4740B742AA58852005FDC26 /* RCFloorContainerModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D4740B722AA58852005FDC26 /* RCFloorContainerModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4740B752AA58852005FDC26 /* RCFloorContainerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4740B732AA58852005FDC26 /* RCFloorContainerModel.m */; };
+		D4740B782AA58868005FDC26 /* RCTableSectionViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D4740B762AA58868005FDC26 /* RCTableSectionViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4740B792AA58868005FDC26 /* RCTableSectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4740B772AA58868005FDC26 /* RCTableSectionViewModel.m */; };
+		D4740B7C2AA58882005FDC26 /* RCBaseComponentModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D4740B7A2AA58882005FDC26 /* RCBaseComponentModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4740B7D2AA58882005FDC26 /* RCBaseComponentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4740B7B2AA58882005FDC26 /* RCBaseComponentModel.m */; };
+		D4740B822AA5C6B6005FDC26 /* RCTableAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = D4740B802AA5C6B6005FDC26 /* RCTableAdapter.h */; };
+		D4740B832AA5C6B6005FDC26 /* RCTableAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D4740B812AA5C6B6005FDC26 /* RCTableAdapter.m */; };
+		D4740B852AA5C6D1005FDC26 /* RCTableAdapterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D4740B842AA5C6D1005FDC26 /* RCTableAdapterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4740B882AA5DF20005FDC26 /* RCContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4740B862AA5DF20005FDC26 /* RCContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4740B892AA5DF20005FDC26 /* RCContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4740B872AA5DF20005FDC26 /* RCContainerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3450534A3D900DA862070E6 /* Pods-RCFloorContainer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCFloorContainer.release.xcconfig"; path = "Target Support Files/Pods-RCFloorContainer/Pods-RCFloorContainer.release.xcconfig"; sourceTree = "<group>"; };
+		D4740B672AA587F1005FDC26 /* RCFloorContainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RCFloorContainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4740B6A2AA587F1005FDC26 /* RCFloorContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCFloorContainer.h; sourceTree = "<group>"; };
+		D4740B722AA58852005FDC26 /* RCFloorContainerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCFloorContainerModel.h; sourceTree = "<group>"; };
+		D4740B732AA58852005FDC26 /* RCFloorContainerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCFloorContainerModel.m; sourceTree = "<group>"; };
+		D4740B762AA58868005FDC26 /* RCTableSectionViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTableSectionViewModel.h; sourceTree = "<group>"; };
+		D4740B772AA58868005FDC26 /* RCTableSectionViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTableSectionViewModel.m; sourceTree = "<group>"; };
+		D4740B7A2AA58882005FDC26 /* RCBaseComponentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCBaseComponentModel.h; sourceTree = "<group>"; };
+		D4740B7B2AA58882005FDC26 /* RCBaseComponentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCBaseComponentModel.m; sourceTree = "<group>"; };
+		D4740B802AA5C6B6005FDC26 /* RCTableAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTableAdapter.h; sourceTree = "<group>"; };
+		D4740B812AA5C6B6005FDC26 /* RCTableAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTableAdapter.m; sourceTree = "<group>"; };
+		D4740B842AA5C6D1005FDC26 /* RCTableAdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTableAdapterProtocol.h; sourceTree = "<group>"; };
+		D4740B862AA5DF20005FDC26 /* RCContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCContainerView.h; sourceTree = "<group>"; };
+		D4740B872AA5DF20005FDC26 /* RCContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCContainerView.m; sourceTree = "<group>"; };
+		DA6A8E25E14EF39E0F79C57B /* Pods-RCFloorContainer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCFloorContainer.debug.xcconfig"; path = "Target Support Files/Pods-RCFloorContainer/Pods-RCFloorContainer.debug.xcconfig"; sourceTree = "<group>"; };
+		FD5202E23DDE12B00DB46257 /* Pods_RCFloorContainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCFloorContainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4740B642AA587F1005FDC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6854061484E9F53F9BBD4D /* Pods_RCFloorContainer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A61A0BA265C1F26140B7F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA6A8E25E14EF39E0F79C57B /* Pods-RCFloorContainer.debug.xcconfig */,
+				D3450534A3D900DA862070E6 /* Pods-RCFloorContainer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D4740B5D2AA587F1005FDC26 = {
+			isa = PBXGroup;
+			children = (
+				D4740B692AA587F1005FDC26 /* RCFloorContainer */,
+				D4740B682AA587F1005FDC26 /* Products */,
+				08A61A0BA265C1F26140B7F0 /* Pods */,
+				D882239DC9D17DF2D2D143FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D4740B682AA587F1005FDC26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4740B672AA587F1005FDC26 /* RCFloorContainer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4740B692AA587F1005FDC26 /* RCFloorContainer */ = {
+			isa = PBXGroup;
+			children = (
+				D4740B7F2AA5C69F005FDC26 /* Adapter */,
+				D4740B7E2AA5C687005FDC26 /* View */,
+				D4740B712AA587F8005FDC26 /* Model */,
+				D4740B6A2AA587F1005FDC26 /* RCFloorContainer.h */,
+			);
+			path = RCFloorContainer;
+			sourceTree = "<group>";
+		};
+		D4740B712AA587F8005FDC26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4740B722AA58852005FDC26 /* RCFloorContainerModel.h */,
+				D4740B732AA58852005FDC26 /* RCFloorContainerModel.m */,
+				D4740B762AA58868005FDC26 /* RCTableSectionViewModel.h */,
+				D4740B772AA58868005FDC26 /* RCTableSectionViewModel.m */,
+				D4740B7A2AA58882005FDC26 /* RCBaseComponentModel.h */,
+				D4740B7B2AA58882005FDC26 /* RCBaseComponentModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4740B7E2AA5C687005FDC26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4740B862AA5DF20005FDC26 /* RCContainerView.h */,
+				D4740B872AA5DF20005FDC26 /* RCContainerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D4740B7F2AA5C69F005FDC26 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				D4740B802AA5C6B6005FDC26 /* RCTableAdapter.h */,
+				D4740B812AA5C6B6005FDC26 /* RCTableAdapter.m */,
+				D4740B842AA5C6D1005FDC26 /* RCTableAdapterProtocol.h */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		D882239DC9D17DF2D2D143FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD5202E23DDE12B00DB46257 /* Pods_RCFloorContainer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D4740B622AA587F1005FDC26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4740B852AA5C6D1005FDC26 /* RCTableAdapterProtocol.h in Headers */,
+				D4740B7C2AA58882005FDC26 /* RCBaseComponentModel.h in Headers */,
+				D4740B882AA5DF20005FDC26 /* RCContainerView.h in Headers */,
+				D4740B822AA5C6B6005FDC26 /* RCTableAdapter.h in Headers */,
+				D4740B742AA58852005FDC26 /* RCFloorContainerModel.h in Headers */,
+				D4740B782AA58868005FDC26 /* RCTableSectionViewModel.h in Headers */,
+				D4740B6B2AA587F1005FDC26 /* RCFloorContainer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D4740B662AA587F1005FDC26 /* RCFloorContainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4740B6E2AA587F1005FDC26 /* Build configuration list for PBXNativeTarget "RCFloorContainer" */;
+			buildPhases = (
+				0F9D807BEBAFBE2DAB2B8CE8 /* [CP] Check Pods Manifest.lock */,
+				D4740B622AA587F1005FDC26 /* Headers */,
+				D4740B632AA587F1005FDC26 /* Sources */,
+				D4740B642AA587F1005FDC26 /* Frameworks */,
+				D4740B652AA587F1005FDC26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCFloorContainer;
+			productName = RCFloorContainer;
+			productReference = D4740B672AA587F1005FDC26 /* RCFloorContainer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4740B5E2AA587F1005FDC26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D4740B662AA587F1005FDC26 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D4740B612AA587F1005FDC26 /* Build configuration list for PBXProject "RCFloorContainer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4740B5D2AA587F1005FDC26;
+			productRefGroup = D4740B682AA587F1005FDC26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4740B662AA587F1005FDC26 /* RCFloorContainer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4740B652AA587F1005FDC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F9D807BEBAFBE2DAB2B8CE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RCFloorContainer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4740B632AA587F1005FDC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4740B792AA58868005FDC26 /* RCTableSectionViewModel.m in Sources */,
+				D4740B832AA5C6B6005FDC26 /* RCTableAdapter.m in Sources */,
+				D4740B752AA58852005FDC26 /* RCFloorContainerModel.m in Sources */,
+				D4740B892AA5DF20005FDC26 /* RCContainerView.m in Sources */,
+				D4740B7D2AA58882005FDC26 /* RCBaseComponentModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D4740B6C2AA587F1005FDC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4740B6D2AA587F1005FDC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4740B6F2AA587F1005FDC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6A8E25E14EF39E0F79C57B /* Pods-RCFloorContainer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MG682L52XG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiku.rc.RCFloorContainer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4740B702AA587F1005FDC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3450534A3D900DA862070E6 /* Pods-RCFloorContainer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MG682L52XG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiku.rc.RCFloorContainer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4740B612AA587F1005FDC26 /* Build configuration list for PBXProject "RCFloorContainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4740B6C2AA587F1005FDC26 /* Debug */,
+				D4740B6D2AA587F1005FDC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4740B6E2AA587F1005FDC26 /* Build configuration list for PBXNativeTarget "RCFloorContainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4740B6F2AA587F1005FDC26 /* Debug */,
+				D4740B702AA587F1005FDC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4740B5E2AA587F1005FDC26 /* Project object */;
+}
